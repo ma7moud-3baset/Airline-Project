@@ -2,7 +2,7 @@
 
 A modern, responsive frontend interface for Dubai Airlines built with HTML, CSS, and JavaScript.
 
-![Project Preview](https://via.placeholder.com/800x400?text=Dubai+Airlines+Demo) *(Replace with actual screenshot)*
+![Project Preview]([https://via.placeholder.com/800x400?text=Dubai+Airlines+Demo](https://github.com/ma7moud-3baset/Airline-Project/blob/main/Airline%20Project%20.png))
 
 ## 🚀 Features
 - Fully responsive design (mobile, tablet, desktop)
