@@ -30,9 +30,9 @@ A modern, responsive frontend interface for Dubai Airlines built with HTML, CSS,
 ## 🖥️ Screenshots
 | Page | Preview |
 |------|---------|
-| Home | ![Home](screenshots/home.png) |
-| Flights | ![Flights](screenshots/flights.png) |
-| Filters | ![Filters](screenshots/filters.png) |
+| Home | ![Home](Home.png) |
+| Flights | ![Flights](Flights.png) |
+| Filters | ![Filters](Loading.png) |
 
 ## 🔧 Installation & Setup
 1. Clone the repository:
