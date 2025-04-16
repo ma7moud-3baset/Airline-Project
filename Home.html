@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Home Page </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            type="text/css">
+
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    </head>
+    <body>
+        <video autoplay loop muted id="home-video" class="home-video"
+            plays-inline>
+            <source
+                src="Dubai International confirmed as world's premier A380 hub.mp4"
+                type="video/mp4">
+        </video> 
+
+        <header style="background-color: white;">
+            <img class="logo" style="border-radius: 1rem;"
+            src="pngwing.com.png" alt="logo">
+    
+             <nav style="background-color: transparent;" id="navBar">  <!--  class="navbar-white" -->
+                
+
+                <ul class="nav_links">
+                    <li><a href="javascript:void(0)" onclick="loadd('Home.html')" class="active"> Home </a></li>
+                    <li><a href="javascript:void(0)" onclick="loadd('flights.html')" > Flights </a></li>
+                    <li><a  href="javascript:void(0)" onclick="loadd('aboutus.html')" > About </a></li>
+                    <li><a href="javascript:void(0)" onclick="loadd('contactus.html')" > Contact </a></li>
+                </ul>
+    
+            </nav>
+    
+            <div class="btn2">
+                <a class="cta" href="javascript:void(0)" onclick="loadd('login.html')"><button class="button-nav">Login </button></a>
+                <a class="cta" href="javascript:void(0)" onclick="loadd('signup.html')"><button class="button-nav">Sign Up</button></a>
+                <!-- <i class="fa-solid fa-bars" onclick="togglebtn()"></i> -->
+            </div>
+    
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </header>
+
+    <div class="container">
+        <h1 class="h1" style="text-align: center;"> Ready To Fly Now ! </h1>
+        <div class="search-bar" style="background-color: white; ">
+                <form>
+                    <div class="location-input">
+                        <label>Location</label>
+                        <input type="text" placeholder="where are you going ?" style="background-color: beige;">
+                    </div>
+
+                    <div style="margin-right: 1rem;">
+                        <label>Check in </label>
+                        <input type="date" placeholder="Add Date" style="background-color: beige;">
+                    </div>
+
+                        
+                    <div style="margin-left: 1rem;">
+                        <label>Guest</label> 
+                        <input type="number" placeholder="Add Guest Number" style="background-color: beige;">
+                    </div>
+
+                    <div style="margin-left: 9rem;">
+                        <label>Check out</label>
+                        <input type="date" placeholder="Add Date" style="background-color: beige;" >
+                    </div>
+
+                    <button type="submit"> <img src="search.png"></button>
+                </form>
+        </div>
+        </div>
+
+        
+
+
+
+            <div class="container" id="bck-white" onload="scrollwhite()">
+                <h2 class="sub-title">Exclusives Visa</h2>
+                <div class="exclusives">
+                    <div>
+                        <img src="c8.jpg">
+                        <span>
+                            <h3>Palestine</h3>
+                            <p>Start From $500</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c2.jpeg">
+                        <span>
+                            <h3>England</h3>
+                            <p>Start From $350</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c7.png">
+                        <span>
+                            <h3>United Arab Emirates</h3>
+                            <p>Start From $300</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c10.png">
+                        <span>
+                            <h3>France</h3>
+                            <p>Start From $350</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c3.jpg">
+                        <span>
+                            <h3>Spain</h3>
+                            <p>Start From $350</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c5.png">
+                        <span>
+                            <h3>Russia</h3>
+                            <p>Start From $400</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c6.png">
+                        <span>
+                            <h3>Saudi Arabia</h3>
+                            <p>Start From $400</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c11.jpg">
+                        <span>
+                            <h3>Egypt</h3>
+                            <p>Start From $350</p>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="c9.png">
+                        <span>
+                            <h3>Australia</h3>
+                            <p>Start From $450</p>
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <h2 class="sub-title">Trending Places</h2>
+                <div class="trending">
+                    <div>
+                        <img src="pic3.jpg">
+                        <h3> #1 <br> Mecca, Saudi Arabia</h3>
+                    </div>
+                    <div>
+                        <img src="pic2.jpg">
+                        <h3> #2<br> Paris, France</h3>
+                    </div>
+                    <div>
+                        <img src="pic4.jpg">
+                        <h3>#3 <br> Medina, Saudi Arabia</h3>
+                    </div>
+                    <div>
+                        <img src="pic1.jpg">
+                        <h3>#4 <br> Milan , Italy</h3>
+                    </div>
+                    <div>
+                        <img src="pic5.jpg">
+                        <h3>#5 <br> Panay Island, Visayas</h3>
+                    </div>
+                    <div>
+                        <img src="pic6.jpg">
+                        <h3>#6 <br> Lombok, Tenggara</h3>
+                    </div>
+
+                </div>
+
+                <div class="cta2">
+                    <h3>Alquds Trip <br> Is Available Now </h3>
+                    <p> Travel to Palestine to feel comfortable  <br> And visit its beautiful places</p>
+                    <a href="Flights.html" class="cta2-btn">Know more</a>
+                </div>
+
+
+                <h2 class="sub-title">Travelers Stories</h2>
+                <div class="stories">
+                    <div>
+                        <img src="s2.jpg">
+                        <p><br>Mark Richard<br>"One of the best trips I took was a safari to one of the islands in Tanzania on board Dubai Airlines"</p>
+                    </div>
+
+                    <div>
+                        <img src="s4.jpg">
+                        <p>Kenzi John<br>"My trip to Paris was very enjoyable, especially the Kids's Zone"</p>
+                    </div>
+
+                    <div>
+                        <img src="s3.jpg">
+                        <p>Ahmed Soliamn<br>"The Hajj trip via Dubai Airlines was one of my best trips"</p>
+                    </div>
+
+                </div>
+
+                <a href="Flights.html" class="start-btn">Ready To Fly Now ! </a>
+                
+            </div>
+        
+
+        <!-- <div class="home-container">
+            <div class="home-box">
+                <p><big>MOVE WITH CONFIDENCE</big><p>
+                        <p> When it comes to your fitness facility, you can be
+                            confident Vision has the knowledge and experience to
+                            deliver equipment that fits your space, your budget
+                            and the people you serve. Lorem, ipsum dolor sit
+                            amet consectetur adipisicing elit. Mollitia ullam
+                            laudantium, maiores esse ducimus recusandae. Laborum
+                            sequi, facere ut tempore reprehenderit ipsa in eaque
+                            ad consectetur, nobis minus itaque rerum!</p>
+                        
+                    </div>
+
+                    <div class="home-box">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Modi, dignissimos inventore! Laudantium vero
+                            atque, magni ut neque nesciunt quidem, ullam tenetur
+                            sapiente omnis, assumenda rerum quam amet eos in
+                            excepturi? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Error dolorum fugit quae, minus
+                            fuga nulla modi eaque quibusdam ipsum veritatis
+                            dicta ut cum? Accusantium, laboriosam dicta
+                            dignissimos quasi reprehenderit tempore.</p>
+                        
+
+                    </div>
+
+                    <div class="home-box">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Modi, dignissimos inventore! Laudantium vero
+                            atque, magni ut neque nesciunt quidem, ullam tenetur
+                            sapiente omnis, assumenda rerum quam amet eos in
+                            excepturi? Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Dolores autem quas doloremque
+                            nesciunt nulla impedit error, ad libero culpa
+                            exercitationem aperiam incidunt voluptatem beatae
+                            quam architecto labore debitis blanditiis ipsum.</p>
+                        
+
+                    </div>
+
+                </div> -->
+
+                <!-- <section class="footer"> -->
+                    <div style=" display: grid; width: 100%;" class="footer">
+                        <div class="col col-1">
+                            <h3> USEFUL LINKS </h3>
+                            <a href="Home.html">Home</a>
+                            <a href="Flights.html">Flights</a>
+                            <a href="aboutus.html">About Us</a>
+                            <a href="contactus.html">Contact Us</a>
+                        </div>
+                        <div  class="col col-2">
+                            <h3>Do you want news from us ?</h3>
+                            <form>
+                                <input id="en-mail" type="email" placeholder="Your Email Address"
+                                    required>
+                                <br>
+                                <button id="put-mail" type="submit">Subscribe Now</button>
+                            </form>
+                        </div>
+                        <div  class="col col-3">
+                            <h3>Contact Us </h3>
+                            <p>+201126697793<br><br> NTI , Aswan , Egypt </p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+            </body>
+            <!-- <script src="bootstrap/bootstrap.min.js"></script>
+            <script src="bootstrap/bootstrap.bundle.min.js"></script> -->
+
+            <script>
+               window.addEventListener('scroll',function () {
+                document.getElementById('bck-white').style.backgroundColor='white';
+                document.getElementById('bck-white').style.transition='2s linear';
+                document.getElementById('bck-white').style.paddingBottom='4rem';
+                 
+               })
+            </script>
+            <!-- <script>
+                var navBar = document.getElementById("navBar");
+
+                function togglebtn(){
+                    navBar.classList.toggle("hidemenu");
+                }
+                
+            </script> -->
+            <script src="loading.js"></script>
+            <style>
+                header nav .nav_links  li a{
+                     color: #111;
+                 }
+     
+                 .active::after{
+          background: #111;
+      
+     }
+     
+     .button-nav{
+         background-color: rgb(10, 67, 152);
+         color: #fff;
+     }
+             </style>
+        </html>

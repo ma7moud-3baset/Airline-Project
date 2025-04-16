@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flights</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            type="text/css">
+    </head>
+    <body style="background-color: white;">
+
+        <header>
+        <img class="logo" style="border-radius: 1rem;"
+        src="d:\Project NTI\pngwing.com.png" alt="logo">
+
+         <nav id="navBar">  <!--  class="navbar-white" -->
+            
+
+
+            <ul class="nav_links">
+                <li><a  href="javascript:void(0)" onclick="loadd('Home.html')"> Home </a></li>
+                <li><a  href="javascript:void(0)" onclick="loadd('flights.html')" class="active" > Flights </a></li>
+                <li><a  href="javascript:void(0)" onclick="loadd('aboutus.html')" > About </a></li>
+                <li><a  href="javascript:void(0)" onclick="loadd('contactus.html')" > Contact </a></li>
+            </ul>
+
+        </nav>
+
+        <div class="btn2">
+            <a class="cta" href="login.html"><button>Login </button></a>
+            <a class="cta" href="signup.html"><button>Sign Up</button></a>
+            <!-- <i class="fa-solid fa-bars" onclick="togglebtn()"></i> -->
+        </div>
+
+    </header>
+
+        <div class="container">
+
+            <div class="list-contanier">
+                <div class="left-col">
+                    <p>500+ options</p>
+                    <h1> Book Your Trip Now !! </h1>
+                    <div class="house asia">
+                        <div class="house-img">
+                            <img src="img1.webp">
+                        </div>
+                        <div class="house-info">
+                            <p>Asia</p>
+                            <h3> Krabi, Thailand </h3>
+                            <p>Krabi has become one of Thailand’s most popular destinations, but I’ll never forget seeing it for the first time in 2000. Located in the south of Thailand, Krabi is an island paradise with countless karst islands jutting out of the South China Sea.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="asia">Individually</p>
+                                <h4>$1,300 <span> / 2 Weeks </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house northamerica">
+                        <div class="house-img">
+                            <img src="img2.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>North America</p>
+                            <h3> Tombstone Mountains Yukon </h3>
+                            <p>While driving the Dempster Highway of Yukon Canada, we commented on how much it looked like Mongolia.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <div class="house-price">
+                                <p class="northamerica">Individually</p>
+                                <h4>$900 <span> / 9 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house africa">
+                        <div class="house-img">
+                            <img src="img3.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Africa</p>
+                            <h3> Cape Town, South Africa </h3>
+                            <p>South Africa has many beautiful places to visit, but there is something special about the beauty of Cape Town. This city is framed by the towering Table Mountain creating the most unique cityscape we’ve ever laid eyes upon.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="africa">Double</p>
+                                <h4>$2,300 <span> /20 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house asia">
+                        <div class="house-img">
+                            <img src="img4.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Asia</p>
+                            <h3>Maldives</h3>
+                            <p>The sapphire blue waters of the Maldives are like nothing we’ve ever seen.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="asia">Double</p>
+                                <h4>$1,000 <span> / 5 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house antarctica">
+                        <div class="house-img">
+                            <img src="img5.webp">
+                        </div>
+                        <div class="house-info">
+                            <p>Antarctica</p>
+                            <h3> Antarctica </h3>
+                            <p>Whenever people ask us what our favorite destination is, Dave always answers Antarctica. The reason? Because it is one of the most beautiful places to photograph on earth.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="antarctica">Double</p>
+                                <h4>$2,000 <span> / 13 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house africa">
+                        <div class="house-img">
+                            <img src="img 6.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Africa</p>
+                            <h3>Serengeti Plains, Tanzania </h3>
+                            <p>Every beautiful picture that you see of those African sunsets really are that gorgeous!
+                            </p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="africa">Double</p>
+                                <h4>$700 <span> / 15 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house asia">
+                        <div class="house-img">
+                            <img src="img7.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Asia</p>
+                            <h3>Sapa, Vietnam</h3>
+                            <p>It has been well over a decade since we visited Sapa in Vietnam, but it’s striking scene will always be etched in our minds. While hiking through the plunging rice terraces in high mountains on the border of China, I felt as if each turn was a picture in a National Geographic photo story.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="asia">Double</p>
+                                <h4>$1,800 <span> / 12 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house europe">
+                        <div class="house-img">
+                            <img src="img8.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Europe</p>
+                            <h3>Amalfi Coast, Italy </h3>
+                            <p>Before visiting Positano, I thought the Cinque Terre was the most beautiful place in Italy. But when I saw the plunging coastal cliffs of the Amalfi Coast as we drove to Positano, I was floored by its dramatic views.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="europe">Individually</p>
+                                <h4>$800 <span> / 6 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house europe">
+                        <div class="house-img">
+                            <img src="img9.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Europe</p>
+                            <h3> Neuschwanstein Castle, Germany </h3>
+                            <p>This castle is so perfect, Walt Disney modelled his Disney Castle after it. It is located just 90 minutes from Munich.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="europe">Individually</p>
+                                <h4>$700 <span> / 5 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house europe">
+                        <div class="house-img">
+                            <img src="img10.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Europe</p>
+                            <h3> Giant’s Causeway – Northern Ireland  </h3>
+                            <p>I couldn’t believe my eyes when I first saw the Giant’s Causeway. There are other basalt formations around the world, but none seem as symmetrical as here.</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="europe">Individually</p>
+                                <h4>$900 <span> / 11 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house africa">
+                        <div class="house-img">
+                            <img src="img11.webp">
+                        </div>
+                        <div class="house-info">
+                            <p>Africa</p>
+                            <h3>Pyramids Of Giza, Egypt</h3>
+                            <p>
+                                The Pyramids of Giza can be seen from all over Cairo. They look like a mirage jutting up from the desert. When I first saw them while driving from the airport to our hotel, I didn’t think I was actually seeing the pyramids. That couldn’t be them, could it? It was!
+                            </p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <div class="house-price" style="cursor: pointer;">
+                                <p class="africa">Double</p>
+                                <h4>$1,000 <span> / 13 Day </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="house asia">
+                        <div class="house-img">
+                            <img src="img12.jpg">
+                        </div>
+                        <div class="house-info">
+                            <p>Asia</p>
+                            <h3>Burj Khalifa , Dubai, United Arab Emirates</h3>
+                            <p>The Burj Khalifa is a skyscraper in Dubai, United Arab Emirates</p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="cursor: pointer;"></i>
+                            <i class="fa-regular fa-star" style="cursor: pointer;"></i>
+                            <div class="house-price">
+                                <p class="asia">Double</p>
+                                <h4>$400 <span> / 1 Week </span></h4>
+                                <button type="button" style="color:rgb(10, 58, 219); text-decoration: none;">Book it</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="sidebar">
+                        <h2>Select Filters</h2>
+                        <h3>Continent</h3>
+                        <div class="filter">
+                            <input id="asia" onchange="filter_country('asia','count_num_asia')" type="checkbox"> <p>Asia</p> <span id="count_num_asia">(0)</span>
+                        </div>
+                        <div class="filter">
+                            <input id="africa" onchange="filter_country('africa','count_num_africa')" type="checkbox"> <p>Africa</p> <span id="count_num_africa">(0)</span>
+                        </div>
+                        <div class="filter">
+                            <input id="europe" onchange="filter_country('europe','count_num_europe')" type="checkbox"> <p>Europe</p> <span id="count_num_europe">(0)</span>
+                        </div>
+                        <div class="filter">
+                            <input id="antarctica" onchange="filter_country('antarctica','count_num_antarctica')" type="checkbox"> <p>Antarctica</p> <span id="count_num_antarctica">(0)</span>
+                        </div>
+                        <h3>Travel type</h3>
+                        <div class="filter">
+                            <input id="individually-ch" type="checkbox"> <p>Individually</p> <span>(0)</span>
+                        </div>
+                        <div class="filter">
+                            <input id="double-ch" type="checkbox"> <p>Double</p> <span>(0)</span>
+                        </div>
+                        </div>
+                        <div class="sidebar-link">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div> <!--<---- footer is here -->
+
+      <div class="pagination">
+        <img src="arrow.png" class="left-arrow">
+        <span class="current">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>&middot; &middot; &middot; &middot; &middot;</span>
+        <span>20</span>
+        <img src="arrow.png" class="right-arrow">
+      </div>  
+
+
+
+
+
+      <div style=" display: grid; width: 100%;" class="footer">
+        <div class="col col-1">
+            <h3> USEFUL LINKS </h3>
+            <a href="Home.html">Home</a>
+            <a href="Flights.html">Flights</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <div  class="col col-2">
+            <h3>Do you want news from us ?</h3>
+            <form>
+                <input id="en-mail" type="email" placeholder="Your Email Address"
+                    required>
+                <br>
+                <button id="put-mail" type="submit">Subscribe Now</button>
+            </form>
+        </div>
+        <div  class="col col-3">
+            <h3>Contact Us </h3>
+            <p>+201126697793<br><br> NTI , Aswan , Egypt </p>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+         <script>
+            // var country_box = document.getElementsByClassName('house')
+
+               function filter_country(app_country, conunt_num) {
+                
+                var ttype='';
+                var country_box= document.querySelectorAll('.'+app_country);
+                var country_box_all= document.querySelectorAll('.house');
+
+                var traveltype = document.querySelectorAll('.container .list-contanier .left-col .house .house-info .house-price .'+app_country);
+
+ 
+                // console.log(country_box);
+                if(document.getElementById('individually-ch').checked){
+                            ttype='Individually';
+                        }
+
+                        else if(document.getElementById('double-ch').checked){
+                            ttype = 'Double';
+                        }  
+
+                        else{
+                            ttype='all';
+                        }
+
+                if(document.getElementById(app_country).checked){
+                    for(var k= 0 ; k<country_box_all.length;k++){
+                        country_box_all[k].style.display=('none');
+                     }
+                     
+                     if(ttype == 'all'){
+                        for(var i = 0 ; i<country_box.length;i++){
+                      
+                                 country_box[i].style.display=('flex');
+ 
+                     }
+                     }
+                     else{
+                    for(var i = 0 ; i<country_box.length;i++){
+                        // console.log(country_box[i]);
+                        // console.log(traveltype[i]);
+                    //    console.log(traveltype[i].innerHTML);
+                               if(traveltype[i].innerHTML == ttype){
+                                country_box[i].style.display=('flex');
+                            }
+ 
+                     }
+                    }
+                     document.getElementById(conunt_num).innerHTML=country_box.length/2;
+
+                    }
+
+                     else {
+                        for(var j = 0 ; j<country_box_all.length;j++){
+                        country_box_all[j].style.display=('flex');
+                        document.getElementById(conunt_num).innerHTML='(0)'
+                     } 
+                     }
+                    
+                   }
+                 
+            </script>
+            <script src="loading.js"></script>
+
+
+     </body>
+</html>

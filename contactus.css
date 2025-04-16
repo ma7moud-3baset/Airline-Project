@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+  .container{
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    background-color: #fff;
+  }
+  #child1{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+  }
+  .container h1{
+    /* color: rgb(23, 23, 135); */
+    /* text-align: center; */
+    margin-bottom: 15px;
+padding: 5px;
+  }
+  /* .container form{
+    width: 70%;
+  float: left; 
+margin-bottom: 50px;
+padding: 10px;
+
+  }
+  .container form input{
+    width: 30%;
+    outline: none;
+    border: 2px solid #fff;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    align-items: center;
+  } */
+ 
+ 
+  .icon{
+    display: flex;
+    width: 100%;
+  }
+  .spmaterial-icons-outlinedan{
+    width: 23%;
+    display: block;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(23, 23, 135);
+  }
+
+  .icon .info{
+    background-color: #ffffff8e;
+    width: 100%;
+    
+  }
+  .icon .info  h4{
+display: flex;
+text-align: center;
+width: auto;
+color: #111;
+
+margin-left: 4rem;
+  }
+ 
+
+  .form{
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  
+  }
+
+
+  .form .container form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+
+.form .container form .input-box{
+  display: grid;
+  gap: 0;
+  background-color: white;
+  border-color: #e4e4e4;
+  border-style: solid;
+  border-width: 0.1rem;
+  width: 95%;
+}
+
+.form .container form .input-box input{
+  width: 100%;
+  background-color: white;
+  border-color: #e4e4e4;
+  border-style: solid;
+  border-width: 0.03rem;
+  padding: 0.7rem;
+  
+}
+
+.form .container form .input-box input:focus, textarea:focus{
+  outline: none;
+}
+
+.form .container form .input-box input::placeholder, textarea::placeholder{
+  color: #dcdbdb;
+}
+
+.form .container form .input-box textarea{
+  background-color: white;
+  border-color: #e4e4e4;
+  border-style: solid;
+  border-width: 0.01rem;
+  resize: none;
+
+
+  padding: 0.7rem;
+}
+.form .container form .input-box:nth-child(5){
+  height: 21%;
+}
+
+
+
+.form .container form .input-box label{
+
+  text-transform: uppercase;
+
+  grid-row: 1;
+  padding: 0.7rem;
+}
+
+.form .container form .input-box:nth-child(2) input{
+  grid-row: 2;
+  
+}
