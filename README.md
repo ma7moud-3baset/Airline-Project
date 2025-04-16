@@ -30,12 +30,8 @@ A modern, responsive frontend interface for Dubai Airlines built with HTML, CSS,
 ## 🖥️ Screenshots
 | Page | Preview |
 |------|---------|
-| Home | ![Home](Home.png) |
-| Flights | ![Flights](Flights.png) |
-| Filters | ![Filters](Loading.png) |
+| Home Page | ![Home](Home.png) |
+| Flights Page  | ![Flights](Flights.png) |
+| Loading Page | ![Filters](Loading.png) |
 
-## 🔧 Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/dubai-airlines-project.git
 
